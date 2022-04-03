@@ -11,7 +11,7 @@ namespace SwitchingMVVMNavigator.ViewModels
 {
     public class HomeViewModel : ViewModelBase
     {
-        public string WelcomeMessage => "Welcome to my application.";
+        public string WelcomeMessage => "Welcome to my home page.";
 
 
         public ICommand NavigateAccountCommand { get; }
